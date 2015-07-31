@@ -14,6 +14,7 @@
 		245C6A101B6AF2B1009979E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245C6A0F1B6AF2B1009979E1 /* Images.xcassets */; };
 		245C6A131B6AF2B1009979E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 245C6A111B6AF2B1009979E1 /* LaunchScreen.xib */; };
 		245C6A1F1B6AF2B1009979E1 /* buttonfunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C6A1E1B6AF2B1009979E1 /* buttonfunTests.m */; };
+		245C6A2F1B6AFCED009979E1 /* ButtonFunCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C6A2E1B6AFCED009979E1 /* ButtonFunCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		245C6A181B6AF2B1009979E1 /* buttonfunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buttonfunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		245C6A1D1B6AF2B1009979E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		245C6A1E1B6AF2B1009979E1 /* buttonfunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = buttonfunTests.m; sourceTree = "<group>"; };
+		245C6A2D1B6AFCED009979E1 /* ButtonFunCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonFunCollectionViewCell.h; sourceTree = "<group>"; };
+		245C6A2E1B6AFCED009979E1 /* ButtonFunCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonFunCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				245C6A0C1B6AF2B1009979E1 /* Main.storyboard */,
 				245C6A0F1B6AF2B1009979E1 /* Images.xcassets */,
 				245C6A111B6AF2B1009979E1 /* LaunchScreen.xib */,
+				245C6A2D1B6AFCED009979E1 /* ButtonFunCollectionViewCell.h */,
+				245C6A2E1B6AFCED009979E1 /* ButtonFunCollectionViewCell.m */,
 				245C6A021B6AF2B1009979E1 /* Supporting Files */,
 			);
 			path = buttonfun;
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				245C6A2F1B6AFCED009979E1 /* ButtonFunCollectionViewCell.m in Sources */,
 				245C6A0B1B6AF2B1009979E1 /* ViewController.m in Sources */,
 				245C6A081B6AF2B1009979E1 /* AppDelegate.m in Sources */,
 				245C6A051B6AF2B1009979E1 /* main.m in Sources */,
@@ -418,6 +424,7 @@
 				245C6A241B6AF2B1009979E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		245C6A251B6AF2B1009979E1 /* Build configuration list for PBXNativeTarget "buttonfunTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				245C6A271B6AF2B1009979E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
