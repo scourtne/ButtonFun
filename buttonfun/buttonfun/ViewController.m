@@ -41,7 +41,7 @@
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    // In some cases, we don't have an even number of rows and columns. To avoid a black line on the screen, go ahead and make these round up
+    // In some cases, we don't have an even number of rows and columns. Make sure to round these up to reduce black lines (the collection view will spill off the screen vertically but not horizontally)
     NSInteger rows = ceilf(self.view.frame.size.height / 40);
     NSInteger cols = ceilf(self.view.frame.size.width / 40);
     
